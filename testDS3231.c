@@ -18,7 +18,7 @@ int main(){
       perror("failed to open the bus\n");
       return 1;
    }
-   if(ioctl(file, I2C_SLAVE, 0x68) < 0){
+   if(ioctl(file, I2C_SLAVE, 0x38) < 0){
       perror("Failed to connect to the sensor\n");
       return 1;
    }
