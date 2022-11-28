@@ -1,2 +1,2 @@
 #!/bin/bash
-g++ application.cpp I2CDevice.cpp ADXL345.cpp -o ADXL345
+g++ THread.cpp I2CDevice.cpp THsensor.cpp -o THsensor
